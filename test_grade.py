@@ -75,7 +75,7 @@ cv2.putText(original, "{:.2f}%".format(score), (10, 30),
 
 
 cv2.imshow("input", image)
-cv2.imshow("original", original)
+cv2.imshow("output", original)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
